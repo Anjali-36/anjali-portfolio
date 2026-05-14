@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    transition: all 0.4s ease;
+}
+
+/* THEMES */
+body.dark {
+    background: #0b0f19;
+    color: white;
+}
+
+body.blue {
+    background: #081b33;
+    color: #d9ecff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* THEME SWITCH */
+.theme-switch {
+    background: rgba(255,255,255,0.08);
+}
+
+
+/* Offset for fixed navbar */
+section {
+    scroll-margin-top: 120px;
+    padding: 100px 10%;
+}
+
+.theme-switch label {
+    cursor: pointer;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+/* GLASS EFFECT */
+.glass {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: all 0.4s ease;
+}
+
+.glass:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 45px rgba(0,198,255,0.18);
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #00c6ff !important;
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        radial-gradient(circle at top left,#1a3a6f,#08111f);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        #00c6ff,
+        #0072ff,
+        #00c6ff
+    );
+    background-size: 200%;
+    background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+    animation: glow 4s linear infinite;
+}
+
+@keyframes glow {
+    100% {
+        background-position: 200%;
+    }
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* TYPING CURSOR */
+#typing::after {
+    content: "|";
+    animation: blink .8s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* SECTIONS */
+.section {
+    padding: 100px 10%;
+}
+
+.section h2 {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background: linear-gradient(
+        90deg,
+        #0072ff,
+        #00c6ff
+    );
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.07);
+}
+
+/* PROJECT CARDS */
+.glass h4 {
+    margin-bottom: 15px;
+    color: #00c6ff;
+}
+
+.glass p {
+    line-height: 1.7;
+}
+
+/* CONTACT */
+#contact p {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+/* FOOTER */
+footer {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.section{
+    padding:70px 20px;
+}
+
+.theme-switch{
+    top:10px;
+    right:10px;
+    padding:8px 12px;
+}
+
+}
+
+.btn-danger{
+background:rgb(91, 37, 126);
+border:none;
+border-radius:30px;
+}
+
+.btn-dark{
+border-radius:30px;
+}
+
+.btn-info{
+border-radius:30px;
+}
+
+/* Contact Buttons Hover */
+#contact .btn {
+    border-radius: 30px;
+    padding: 12px 28px;
+    transition: all 0.4s ease;
+}
+
+#contact .btn:hover {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 12px 25px rgba(0,198,255,0.25);
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+
+    border: 5px solid #00c6ff;
+    box-shadow: 0 0 35px rgba(0,198,255,0.6);
+
+    transition: 0.4s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 55px rgba(0,198,255,0.9);
+}
