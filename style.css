@@ -244,3 +244,7 @@ border-radius:30px;
     transform: scale(1.08);
     box-shadow: 0 0 55px rgba(0,198,255,0.9);
 }
+
+html{
+scroll-behavior:smooth;
+}

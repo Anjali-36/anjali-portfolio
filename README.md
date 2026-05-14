@@ -1,19 +1,20 @@
 # Anjali Kumari Portfolio
 
-A modern responsive developer portfolio showcasing my skills, projects, and resume.
+A modern, fully responsive developer portfolio built to showcase my technical skills, projects, and professional experience in full-stack web development and machine learning.
 
 ## Live Portfolio
 https://anjali-kumari.netlify.app/
 
 ## Features
-- Responsive modern UI
-- Dark theme design
-- Animated portfolio sections
-- Project showcase with live demos
-- Downloadable resume
-- Contact links
+- Fully responsive modern UI
+- Dark mode interface
+- Smooth animated transitions
+- Interactive project showcase
+- Resume download support
+- Professional contact integration
+- Optimized deployment on Netlify
 
-## Built With
+## Tech Stack
 - HTML5
 - CSS3
 - JavaScript
@@ -22,21 +23,37 @@ https://anjali-kumari.netlify.app/
 
 ## Projects Featured
 ### SmartTodo-AI
-Django-based task management system with:
-- Authentication
-- Voice assistant
-- Dark mode
-- Task tracking
+An AI-powered Django task management application featuring:
+
+- Secure user authentication
+- Voice assistant integration
+- Dark mode support
+- Task tracking and organization
+- Responsive dashboard interface
 
 ### Cyberbullying Detection
-Machine learning + NLP project using:
-- SVM
+A machine learning-powered NLP application for harmful text classification using:
+
+- Support Vector Machine (SVM)
 - Logistic Regression
 - Naive Bayes
-- Django integration
+- Django-based deployment
+- Real-time prediction interface
+
+## About Me
+
+I am a Computer Science graduate passionate about building scalable web applications and solving real-world problems using Python, Django, and Machine Learning.
+
+Currently seeking opportunities as a:
+
+- Python Developer
+- Django Developer
+- Software Engineer
+- Full-Stack Developer
+
+## Contact With Me
+GitHub: https://github.com/Anjali-36  
+LinkedIn: https://linkedin.com/in/anjalikumari2002
 
 ## Author
 Anjali Kumari
-
-GitHub: https://github.com/Anjali-36  
-LinkedIn: https://linkedin.com/in/anjalikumari2002
