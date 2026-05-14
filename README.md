@@ -3,7 +3,7 @@
 A modern responsive developer portfolio showcasing my skills, projects, and resume.
 
 ## Live Portfolio
-https://your-netlify-link.netlify.app/
+https://anjali-kumari.netlify.app/
 
 ## Features
 - Responsive modern UI
