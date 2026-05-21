@@ -3,7 +3,7 @@
 A modern, fully responsive developer portfolio built to showcase my technical skills, projects, and professional experience in full-stack web development and machine learning.
 
 ## Live Portfolio
-https://anjali-kumari.netlify.app/
+https://anjali-36.github.io/anjali-portfolio/
 
 ## Features
 - Fully responsive modern UI
